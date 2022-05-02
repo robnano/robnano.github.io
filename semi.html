@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+        <!-- import D3 Version 6 here or at the end of the body -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script> -->
+        
+        <!-- load our custom D3 code (must happen after D3 is loaded) -->
+        <!-- <script src="./semiline.js"></script> -->
+        <!-- <script src="./gpuline.js"></script> -->
+        <!-- <script src="./cryptoline.js"></script> -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mainStyle.css">
+
+    </head>
+    <body>
+        <!-- create an SVG canvas for us to modify -->
+        <h1 style = "margin-left: 850px; color:white; font-size: 70px;">Semiconductor graph</h1>
+        <div class="parent">
+            <div class = "child" id="semi" width="300" height="800"></div> 
+            <div style="margin-left:100px; margin-right:0px; font-size: 17.9px" class="child">This graph shows the production of semiconductors, and we can see that from the start of 2020 up until the middle<br> of May, production decreased and stagnated due to COVID. At the same time people were stuck at home during<br>the lockdowns, many of whom had to work from home. We can assume that the demand for tech<br>went up since most people had to adjust to working from home and staying home all the time.<br>Though production went up, the prices still kept going up, and based on the principles<br>of supply and demand we can assume that the increase in production from the middle of May<br>did not keep up with the demand.</div>
+        </div>
+        <script src="./semiline.js"></script>
+        <a href="crypto.html">Back</a>
+        <a href="thankyou.html">Next</a>
+    </body>
+</html>

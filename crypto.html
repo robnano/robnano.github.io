@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+        <!-- import D3 Version 6 here or at the end of the body -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script> -->
+        
+        <!-- load our custom D3 code (must happen after D3 is loaded) -->
+        <!-- <script src="./semiline.js"></script> -->
+        <!-- <script src="./gpuline.js"></script> -->
+        <!-- <script src="./cryptoline.js"></script> -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mainStyle.css">
+
+    </head>
+    <body>
+        <h1 style = "margin-left: 1000px; color:white; font-size: 70px;">Crypto Graph</h1>
+        <!-- create an SVG canvas for us to modify -->
+
+        <div class="parent">
+            <div class = "child" id="crypto" width="1200" height="800"></div> 
+            <div style="margin-left:100px; margin-right:0px;font-size: 22px" class="child">The price of crypto in the current range is seen going up near October of 2020.<br>The price of crypto correlates to the amount of crypto mining taking place.<br>Crypto mining is the facilitating of transactions done with a cryptocurrency.<br>To do this en masse, a miner needs a lot of GPU working around the clock.<br>With a massive increase in price, it is safe to say that the demand for GPUs also increased dramatically.<br>Because of this crypto gold rush, Nvidia took action and began producing GPUs that have a significantly<br>weakened ability to crypto mine, in order to stabilize the supply of GPUs.</div>
+        </div>
+        <script src="./cryptoline.js"></script>
+        <a href="gpu.html">Back</a>
+        <a href="semi.html">Next</a>
+    </body>
+</html>
